@@ -1,6 +1,5 @@
 # Path to a firmware file to patch.
-# https://github.com/Logitech/fw_updates
-BASE_FIRMWARE = ./RQR12.05_B0028.hex
+BASE_FIRMWARE = ./fw_updates/RQR12/RQR12.05/RQR12.05_B0028.hex
 BOOTLOADER_ADDRESS = 0x7400
 
 SDCC ?= sdcc
